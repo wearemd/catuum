@@ -5,6 +5,6 @@ use Mix.Config
 config :quantum, cron: [
   download_random_cat: [
     schedule: "* * * * *",
-    task: "Vigil.FeedStore.process_feed"
+    task: "Catuum.Downloader.random_cat"
   ]
 ]
