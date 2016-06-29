@@ -34,7 +34,8 @@ defmodule Catuum.Mixfile do
       {:httpotion, github: "myfreeweb/httpotion"},
       {:quantum, ">= 1.7.1"},
       {:poison, "~> 2.0"},
-      {:mogrify, "~> 0.3.1"}
+      {:mogrify, "~> 0.3.1"},
+      {:exrm, "~> 1.0.5"}
     ]
   end
 end
