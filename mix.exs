@@ -35,7 +35,9 @@ defmodule Catuum.Mixfile do
       {:quantum, ">= 1.7.1"},
       {:poison, "~> 2.0"},
       {:mogrify, "~> 0.3.1"},
-      {:exrm, "~> 1.0.5"}
+      {:exrm, "~> 1.0.5"},
+      {:cf, "~> 0.2.1", override: true},
+      {:erlware_commons, github: "erlware/erlware_commons", override: true}
     ]
   end
 end
